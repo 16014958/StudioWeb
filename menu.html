@@ -23,9 +23,10 @@ MENU
   <div id="nav">
     <ul>
       <li> <a href="index.html"><p href="home.html" class="icon1" id="button1" onmousedown="changeimg()" onmouseup="imgUP()"> </p> </a></li>
-      <li><a href="event.html" id="button2" onclick="changeimg2()"><p class="navIcon" onmousedown="changeimg2()">     </p></a></li>
-      <li><a href=""><p class="Icontwo" id="button3" onmousedown="changeimg3()">     </p></a></li>
-      <li><a href=""><p class="Icon" id="button4" onmousedown="changeimg4()">  </p> </a></li>
+      <li><a href="event.html"  ><p id="button2" class="navIcon" onmousedown="changeimg2()">     </p></a></li>
+      <li><a href="emergency.html"><p class="Icontwo" id="button3" onmousedown="changeimg3()">     </p></a></li>
+      <li><a href=""><p class="Iconthree" id="button5" onmousedown="changeimg5()">     </p></a></li>
+      <li><a href="contact.html"><p class="Icon" id="button4" onmousedown="changeimg4()">  </p> </a></li>
 
     </ul>
 
@@ -289,6 +290,11 @@ function changeimg3(){
 
 function changeimg4(){
   document.getElementById('button4').style.backgroundImage = "url(Assets/ContactClicked.png)";
+
+}
+
+function changeimg5(){
+  document.getElementById('button5').style.backgroundImage = "url(Assets/resources.png)";
 
 }
 
