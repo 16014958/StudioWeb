@@ -215,7 +215,7 @@ body{
 
 .armLeft{
   position: absolute;
-  left:-3px;
+  left:-5px;
   top: 530px;
   z-index: 1000;
 }
@@ -230,16 +230,17 @@ body{
 
 .armLeft2 {
   position: absolute;
-  left:-3px;
+  left:-8px;
   top: 560px;
   z-index: 1000;
 }
 
 
 .armRight{
+  z-index: 1000;
   position: absolute;
   right: 0px;
-  top: 630px;
+  top: 430px;
 }
 
 
