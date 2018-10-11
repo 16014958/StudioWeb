@@ -18,7 +18,12 @@
 
 
 
-<body class="fade-in one">
+<body class="fade-in one" id="body">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+
+
 
   <div id="nav">
     <ul>
@@ -43,7 +48,7 @@
 
 
 
-<div class="titleImg">
+<div class="titleImg" id="bulkItems">
 
   <img src="Assets/fishnchips.png" width="450px">
 
@@ -161,20 +166,41 @@
 
 
 
-<svg width="100%" height="100%">
-  <g>
+
+
+
+
+<div class="items">
+
+<!-- Paper -->
+<img id="paper1" src="Assets/paper.png" width="1500px" >
+<img id="paper3" src="Assets/paper2.png" width="1600px" >
+<img id="paper2" src="Assets/paper.png" width="1600px" >
+
+
+
+<!-- chips -->
+
+<img id="chip1" src="Assets/chip1.png" width="250px" >
+<img id="chip2" src="Assets/chips4.png" width="250px" >
+<img id="chip3" src="Assets/chips6.png" width="250px" >
+<img id="chip4" src="Assets/chips4.png" width="250px" >
+<img id="chip5" src="Assets/chips6.png" width="250px" >
+<img id="chip6" src="Assets/chips4.png" width="250px" >
+<img id="chip7" src="Assets/chips6.png" width="250px" >
+<img id="chip8" src="Assets/chips6.png" width="250px" >
+<img id="chip9" src="Assets/chips4.png" width="250px" >
+<img id="chip10" src="Assets/chips6.png" width="250px" >
+
+
+
+</div>
 
 
 
 
 
 
-
-
-
-
-  </g>
-</svg>
 
 
 
@@ -183,9 +209,38 @@
 <!-- javascript -->
 
 
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+
+
+var logo = document.getElementById("bulkItems");
+
+TweenMax.to(logo, 4, {opacity:1 , ease:Power1.easeInOut   });
+
+// TweenMax.to('#arm1', 1.8, {x:870, y:620});
+
+// TweenMax.to('#arm1', 1, {x:100, onComplete:myFunction});
+// function myFunction():void {
+//    trace("tween ended");
+//    this.removeChild('#arm1');
+// }
+
+
+
+
+
+
 
 function changeimg(){
   document.getElementById('button1').style.backgroundImage = "url(Assets/AboutClicked.png)";
