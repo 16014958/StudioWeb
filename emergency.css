@@ -103,20 +103,17 @@ body{
 
 #nav li:hover{
   opacity: 0.9;
-  z-index: 1000;
 }
 
 .navIcon{
   position: relative;
   top: 50px;
-  background-image: url("Assets/EventInfoClicked.png");
+  background-image: url("Assets/EventInfoButton.png");
   width: 130px;
   height: 100px;
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-color: red; */
-  z-index: 1000;
-
 }
 
 .icon1{
@@ -127,18 +124,16 @@ body{
   height: 100px;
   background-size: 100%;
   background-repeat: no-repeat;
-    z-index: 1000;
 }
 
 .Icontwo{
   position: relative;
   top: -40px;
-  background-image: url("Assets/EmergencyButton.png");
+  background-image: url("Assets/EmergencyClicked.png");
   width: 130px;
   height: 100px;
   background-size: 100%;
   background-repeat: no-repeat;
-  z-index: 1000;
 }
 
 .Icon {
@@ -149,7 +144,6 @@ body{
   height: 100px;
   background-size: 100%;
   background-repeat: no-repeat;
-  z-index: 1000;
 }
 
 
@@ -158,7 +152,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  z-index: -200;
+
 }
 
 
@@ -167,15 +161,12 @@ body{
 .title{
   margin-left: auto;
   margin-right: auto;
-  max-width: 300px;
-
-  /* height: 250px; */
+  max-width: 800px;
   margin-top: -400px;
   margin-left: 20px;
   padding-left: 50px;
   transform: rotate(2deg);
-  z-index: -1000;
-  /* background-color: red; */
+  z-index: -100;
 }
 
 
@@ -188,8 +179,8 @@ body{
   word-spacing: 7px;
   font-size: 2rem;
   margin-left: 220px;
-  margin-top: -550px;
-  height: 500px;
+  margin-top: -150px;
+  height: 300px;
 
 }
 
@@ -198,7 +189,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   max-width: 450px;
-  /* height: 100px; */
 
 }
 
@@ -236,8 +226,39 @@ body{
 .armRight2{
   position: absolute;
   right:-3px;
-  top: 2330px;
+  top: 1330px;
   z-index: 1000;
+}
+
+.alarm{
+  position: absolute;
+  left: 300px;
+  top: 1930px;
+  z-index: 1000;
+}
+
+
+.waterdrops{
+  position: absolute;
+  right:360px;
+  top: 1470px;
+  z-index: 1000;
+}
+
+.waterdrop1{
+  position: absolute;
+  right:460px;
+  top: 1500px;
+  z-index: 1000;
+  transform: rotate(-20deg);
+}
+
+.waterdrop2{
+  position: absolute;
+  right:360px;
+  top: 1530px;
+  z-index: 1000;
+  transform: rotate(10deg);
 }
 
 
@@ -533,13 +554,20 @@ body{
   position: absolute;
   right:-190px;
   top: 1260px;
-  /* transform: rotate(15deg); */
+  transform: rotate(80deg);
 }
 
 .sauce4{
   position: absolute;
   left: 290px;
-  top: 2700px;
+  top: 2300px;
+  /* transform: rotate(15deg); */
+}
+
+.sauce6{
+  position: absolute;
+  left: -280px;
+  top: 1900px;
   /* transform: rotate(15deg); */
 }
 
@@ -606,33 +634,9 @@ body{
 
 .map{
   position: relative;
-
-  left: -360px;
+  left: 360px;
   top: -250px;
   z-index: -100;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: red;
-  margin-top: 100px;
-
-
-
-
-
-}
-
-
-.text6{
-  /* background-color: red; */
-  /* margin-top: -100px; */
-  width: 500px;
-  height: 100px;
-  /* background-color: red; */
-  margin-left: auto;
-  margin-right: auto;
-
-
 }
 
 .hereBTN{
