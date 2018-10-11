@@ -59,7 +59,7 @@ src: url(Assets/BEBAS.ttf);
 
 
 #bulkItems{
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 
@@ -102,7 +102,7 @@ src: url(Assets/BEBAS.ttf);
 
 #chip2{
   position: absolute;
-  left: 25vw;
+  left: 10vw;
   top: 20vh;
   z-index: 7000;
 }
@@ -152,7 +152,7 @@ src: url(Assets/BEBAS.ttf);
 #chip8{
   position: absolute;
   left: 45vw;
-  top: 30vh;
+  top: 40vh;
   z-index: 7000;
     transform: rotate(-30deg);
 }
@@ -172,6 +172,79 @@ src: url(Assets/BEBAS.ttf);
   z-index: 7000;
     transform: rotate(-30deg);
 }
+
+
+
+#fish1{
+  position: absolute;
+  left: 55vw;
+  top: 40vh;
+  z-index: 7000;
+    transform: rotate(29deg);
+}
+
+
+
+#fish2{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+    transform: rotate(-10deg);
+}
+
+
+#sauce{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+  transform: rotate(40deg);
+}
+
+
+#armLeft1{
+  position: absolute;
+  left: -5px;
+  top: 280px;
+  z-index: 7000;
+  /* transform: rotate(40deg); */
+}
+
+#armLeft2{
+  position: absolute;
+  left: -5px;
+  top: 780px;
+  z-index: 7000;
+  transform: rotate(-50deg);
+}
+
+
+#armRight1{
+  position: absolute;
+  right: -5px;
+  top: -40px;
+  z-index: 7000;
+  transform: rotate(-0deg);
+}
+
+#armRight2{
+  position: absolute;
+  right: -5px;
+  top: 700px;
+  z-index: 7000;
+  /* transform: rotate(-0deg); */
+}
+
+
+#armRight3{
+  position: absolute;
+  right: 650px;
+  top: -100px;
+  z-index: 7000;
+  transform: rotate(-60deg);
+}
+
 
 
 
