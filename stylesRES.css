@@ -144,7 +144,7 @@ body{
 .Iconthree {
   position: relative;
   top: -20px;
-  background-image: url("Assets/ResourcesButton.png");
+  background-image: url("Assets/Resources.png");
   width: 130px;
   height: 100px;
   background-size: 100%;
@@ -154,7 +154,7 @@ body{
 .Icon {
   position: relative;
   top: -90px;
-  background-image: url("Assets/ContactClicked.png");
+  background-image: url("Assets/ContactButton.png");
   width: 130px;
   height: 100px;
   background-size: 100%;
