@@ -58,6 +58,197 @@ src: url(Assets/BEBAS.ttf);
 
 
 
+#bulkItems{
+  /* opacity: 0; */
+}
+
+
+#paper1{
+  transform: rotate(50deg);
+  position: absolute;
+  left: -90px;
+  top: 200px;
+    z-index: 6000;
+}
+
+#paper2{
+  transform: rotate(160deg);
+  position: absolute;
+  right: -90px;
+  top: 200px;
+    z-index: 6000;
+}
+
+#paper3{
+  transform: rotate(30deg);
+  position: absolute;
+  right: 20px;
+  top: -330px;
+  z-index: 6000;
+}
+
+
+
+
+
+#chip1{
+  position: absolute;
+  left: 45vw;
+  top: 40vh;
+  z-index: 7000;
+}
+
+
+
+#chip2{
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  z-index: 7000;
+}
+
+
+#chip3{
+  position: absolute;
+  left: 65vw;
+  top: 80vh;
+  z-index: 7000;
+    transform: rotate(50deg);
+}
+
+
+#chip4{
+  position: absolute;
+  left: 15vw;
+  top: 60vh;
+  z-index: 7000;
+}
+
+#chip5{
+  position: absolute;
+  left: 35vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(50deg);
+}
+
+
+#chip6{
+  position: absolute;
+  left: 45vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(30deg);
+}
+
+#chip7{
+  position: absolute;
+  left: 15vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+}
+
+#chip8{
+  position: absolute;
+  left: 45vw;
+  top: 40vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+}
+
+#chip9{
+  position: absolute;
+  left: 25vw;
+  top: 0vh;
+  z-index: 7000;
+    transform: rotate(20deg);
+}
+
+#chip10{
+  position: absolute;
+  left: 35vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+}
+
+
+
+#fish1{
+  position: absolute;
+  left: 55vw;
+  top: 40vh;
+  z-index: 7000;
+    transform: rotate(29deg);
+}
+
+
+
+#fish2{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+    transform: rotate(-10deg);
+}
+
+
+#sauce{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+  transform: rotate(40deg);
+}
+
+
+#armLeft1{
+  position: absolute;
+  left: -5px;
+  top: 280px;
+  z-index: 7000;
+  /* transform: rotate(40deg); */
+}
+
+#armLeft2{
+  position: absolute;
+  left: -5px;
+  top: 780px;
+  z-index: 7000;
+  transform: rotate(-50deg);
+}
+
+
+#armRight1{
+  position: absolute;
+  right: -5px;
+  top: -40px;
+  z-index: 7000;
+  transform: rotate(-0deg);
+}
+
+#armRight2{
+  position: absolute;
+  right: -5px;
+  top: 700px;
+  z-index: 7000;
+  /* transform: rotate(-0deg); */
+}
+
+
+#armRight3{
+  position: absolute;
+  right: 650px;
+  top: -100px;
+  z-index: 7000;
+  transform: rotate(-60deg);
+}
+
+
+
+
+
 
 
 
@@ -66,6 +257,7 @@ body{
   margin: 0;
   background-color: #F5F2EF;
   overflow-x: hidden;
+
 /* height: 700px; */
 }
 
@@ -554,7 +746,7 @@ margin-top: 50px;
 
 
 svg{
-  background-color: red;
+  /* background-color: red; */
   position: absolute;
   top: 5px;
   left: 1px;
