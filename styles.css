@@ -551,3 +551,11 @@ margin-top: 50px;
   transform: rotate(-10deg);
 
 }
+
+
+svg{
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  left: 1px;
+}
