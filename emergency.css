@@ -96,7 +96,7 @@ body{
 
 #nav li{
   display: inline-block;
-  width: 23%;
+  width: 18%;
   margin-left: 1%;
 
 }
@@ -136,9 +136,19 @@ body{
   background-repeat: no-repeat;
 }
 
+.Iconthree {
+  position: relative;
+  top: -20px;
+  background-image: url("Assets/ResourcesButton.png");
+  width: 130px;
+  height: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .Icon {
   position: relative;
-  top: 0px;
+  top: -90px;
   background-image: url("Assets/ContactButton.png");
   width: 130px;
   height: 100px;
