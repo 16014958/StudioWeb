@@ -128,7 +128,7 @@
   <h1>Fish  'n'  chips</h1>
   <p> blah blah blah blah blah </p>
 
-<a href=""><h3 class="infoButton" id="button5" onclick="changeimg2()">     </h3></a>
+<a href="event.html"><h3 class="infoButton" id="button6" onmousedown="changeimg6()">     </h3></a>
 
 </div>
 
@@ -141,7 +141,7 @@
   <p> blah blah blah blah blah </p>
 
 
-<a href=""><h3 class="infoButton2" id="button5" onclick="changeimg2()">     </h3></a>
+<a href="emergency.html"><h3 class="infoButton2" id="button7" onmousedown="changeimg7()">     </h3></a>
 
 
 </div>
@@ -335,6 +335,16 @@ function changeimg4(){
 
 function changeimg5(){
   document.getElementById('button5').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+function changeimg6(){
+  document.getElementById('button6').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+function changeimg7(){
+  document.getElementById('button7').style.backgroundImage = "url(Assets/moreInfoClicked.png)";
 
 }
 
