@@ -73,7 +73,8 @@ src: url(Assets/BEBAS.ttf);
 
 body{
   margin: 0;
-  background-color: #F5F2EF;
+  background-color: #FFE402;
+  /* background-color: #F5F2EF; */
   overflow-x: hidden;
 /* height: 700px; */
 }
@@ -549,7 +550,7 @@ body{
 .sauce4{
   position: absolute;
   left: 290px;
-  top: 2700px;
+  top: 3200px;
   /* transform: rotate(15deg); */
 }
 
@@ -557,7 +558,7 @@ body{
 
 .text{
   width: 500px;
-  height: 400px;
+  height: 530px;
   margin-top: -100px;
   /* background-color: red; */
   margin-left: auto;
