@@ -298,14 +298,15 @@ body{
 .chip1{
   position: absolute;
   left: 250px;
-  top: 660px;
+  top: 630px;
+  transform: rotate(-25deg);
 
 }
 
 .chip2{
   position: absolute;
-  right: 234px;
-  top: 710px;
+  right: 90px;
+  top: 450px;
   /* transform: rotate(40deg); */
 
 }
@@ -329,9 +330,9 @@ body{
 
 .chip5{
   position: absolute;
-  left: 20vw;
+  left: 10vw;
   top: 840px;
-  transform: rotate(15deg);
+  /* transform: rotate(25deg); */
 
 }
 
@@ -383,9 +384,9 @@ body{
 
 .chip11{
   position: absolute;
-  left:80vw;
-  top: 1130px;
-  /* transform: rotate(15deg); */
+  left:60vw;
+  top: 1100px;
+  transform: rotate(35deg);
 
 }
 
@@ -437,8 +438,8 @@ body{
 .chip17{
   position: absolute;
   left:85vw;
-  top: 1630px;
-  /* transform: rotate(15deg); */
+  top: 1670px;
+  transform: rotate(-35deg);
 
 }
 
@@ -566,8 +567,9 @@ body{
 .sauce3{
   position: absolute;
   right:-190px;
-  top: 1260px;
-  /* transform: rotate(15deg); */
+  top: 1760px;
+  transform: rotate(15deg);
+  display: none;
 }
 
 .sauce4{

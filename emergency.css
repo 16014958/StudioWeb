@@ -5,7 +5,11 @@ src: url(Assets/BEBAS.ttf);
 }
 
 
+@font-face {
+font-family: 'Futura';
+src: url(Assets/futuraMedium.ttf);
 
+}
 
 
 
@@ -567,9 +571,9 @@ body{
 
 .sauce3{
   position: absolute;
-  right:-190px;
-  top: 1260px;
-  transform: rotate(80deg);
+  right:-240px;
+  top: 1660px;
+  transform: rotate(-230deg);
 }
 
 .sauce4{
@@ -609,11 +613,11 @@ body{
 }
 
 .text p{
-
-  font-style: italic;
+font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
-  padding-left: 5px;
+  transform: skew( -5deg, -7deg) rotate(-3deg);
+    padding-left: 5px;
 }
 
 
@@ -640,11 +644,12 @@ body{
 }
 
 .text2 p{
-
-  font-style: italic;
+font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
-  padding-left: 5px;
+  transform: skew( -5deg, -7deg) rotate(-3deg);
+   padding-left: 5px;
+
 }
 
 .map{

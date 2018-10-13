@@ -5,7 +5,11 @@ src: url(Assets/BEBAS.ttf);
 }
 
 
+@font-face {
+font-family: 'Futura';
+src: url(Assets/futuraMedium.ttf);
 
+}
 
 
 
@@ -275,7 +279,7 @@ body{
 .chip1{
   position: absolute;
   left: 250px;
-  top: 660px;
+  top: 510px;
 
 }
 
@@ -422,7 +426,7 @@ body{
 .chip18{
   position: absolute;
   left:75vw;
-  top: 1690px;
+  top: 1490px;
   /* transform: rotate(15deg); */
 
 }
@@ -472,12 +476,12 @@ body{
 
 .lemon1{
   position: absolute;
-  left: 15vw;
-  top: 360px;
+  right: 15vw;
+  top: 460px;
   /* background-color: red; */
   /* opacity: 0.5; */
   z-index: 2000;
-  transform: rotate(15deg);
+  transform: rotate(55deg);
 
 }
 
@@ -495,8 +499,8 @@ body{
 
 .lemon3{
   position: absolute;
-  left: 20vw;
-  top: 1260px;
+  left: 3vw;
+  top: 940px;
   /* background-color: red; */
   /* opacity: 0.5; */
   z-index: 2000;
@@ -542,9 +546,9 @@ body{
 
 .sauce3{
   position: absolute;
-  right:-190px;
-  top: 1260px;
-  /* transform: rotate(15deg); */
+  left:-160px;
+  top: 2460px;
+  transform: rotate(45deg);
 }
 
 .sauce4{
@@ -559,7 +563,7 @@ body{
 .text{
   width: 500px;
   height: 530px;
-  margin-top: -100px;
+  margin-top: -200px;
   /* background-color: red; */
   margin-left: auto;
   margin-right: auto;
@@ -577,10 +581,12 @@ body{
 }
 
 .text p{
-
-  font-style: italic;
+  transform: skew( -5deg, -5deg) rotate(-5deg);
+  padding-left: 5px;
+  font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */
   padding-left: 5px;
 }
 
@@ -593,7 +599,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-left:  690px;
-  margin-top: 100px;
+  margin-top: -100px;
   line-height: 15px;
 
 }
@@ -608,10 +614,12 @@ body{
 }
 
 .text2 p{
-
-  font-style: italic;
+  transform: skew( -5deg, -7deg) rotate(-3deg);
+    padding-left: 5px;
+  font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */
   padding-left: 5px;
 }
 

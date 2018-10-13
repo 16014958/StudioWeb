@@ -232,7 +232,7 @@ body{
 .armLeft2 {
   position: absolute;
   left:-8px;
-  top: 560px;
+  top: 1290px;
   z-index: 1000;
 }
 
@@ -415,7 +415,7 @@ body{
 .chip17{
   position: absolute;
   left:85vw;
-  top: 1630px;
+  top: 430px;
   /* transform: rotate(15deg); */
 
 }

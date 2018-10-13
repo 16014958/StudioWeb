@@ -5,6 +5,13 @@ src: url(Assets/BEBAS.ttf);
 }
 
 
+@font-face {
+font-family: 'Futura';
+src: url(Assets/futuraMedium.ttf);
+
+}
+
+
 
 
 @-webkit-keyframes fadeIn {
@@ -595,6 +602,7 @@ body{
   position: absolute;
   left:25vw;
   top: -260px;
+  z-index: -2000;
   /* transform: rotate(15deg); */
 
 }
@@ -643,11 +651,11 @@ body{
 }
 
 .text p{
-
-  font-style: italic;
+font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
-  padding-left: 5px;
+  transform: skew( -5deg, -5deg) rotate(-5deg);
+    padding-left: 5px;
 }
 
 
@@ -672,17 +680,18 @@ body{
 }
 
 .text2 p{
-
-  font-style: italic;
-  color: #bb3b2e;
-  transform: rotate(-10deg);
+font-family: 'Futura';
+/* font-style: italic; */
+color: #bb3b2e;
+/* transform: rotate(-5deg); */
+  transform: skew( -5deg, -5deg) rotate(-5deg);
   padding-left: 5px;
 }
 
 .infoButton{
   position: relative;
-  top: 130px;
-  left: 100px;
+  top: 20px;
+  left: 0px;
   background-image: url("Assets/EventInfoButton.png");
   width: 130px;
   height: 100px;
@@ -695,8 +704,8 @@ body{
 
 .infoButton2{
   position: relative;
-  top: 130px;
-  left: 200px;
+  top: 20px;
+  left: 0px;
   background-image: url("Assets/moreInfoButton.png");
   width: 130px;
   height: 100px;
