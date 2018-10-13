@@ -98,10 +98,6 @@
 <img class="chip17" src="Assets/chips5.png" width="110px" >
 
 <img class="chip18" src="Assets/chips6.png" width="110px" data-scroll-speed="9">
-<img class="chip19" src="Assets/chips7.png" width="130px" >
-<img class="chip20" src="Assets/chips5.png" width="120px" >
-<img class="chip21" src="Assets/chips5.png" width="120px" >
-<img class="chip22" src="Assets/chips3.png" width="100px" data-scroll-speed="3">
 
 
 <!-- Lemons -->
@@ -118,7 +114,7 @@
 
 <img class="sauce3" src="Assets/tomsauce.png" width="400px" data-scroll-speed="10">
 
-<img class="sauce4" src="Assets/tomsauceDip2.png" width="400px" >
+<!-- <img class="sauce4" src="Assets/tomsauceDip2.png" width="400px" > -->
 
 
 
@@ -144,6 +140,9 @@
 <div class="text" >
 
 <h1>Get saucy with one </h1><h1>of our Tomotoe </h1><h1>sauce bottles</h1>
+<br>
+<h1> Purchase one </h1>
+<a  > <p id="button6" onmousedown="changeimg6()" onmouseup="changeimg6up()">    </p></a>
 
 
 
@@ -152,8 +151,8 @@
 
 <div class="text2" >
 
-<h1>Grab one of our posters </h1>
-
+<h1>Grab one of our saucey posters </h1> <h1> to help spread the </h1> <h1>awareness in </h1> <h1>your neighbourhood. </h1>
+<a  > <p id="button7" onmousedown="changeimg7()" onmouseup="changeimg7up()">    </p></a>
 
 
 </div>
@@ -231,6 +230,28 @@ function changeimg5(){
 
 }
 
+
+function changeimg6(){
+  document.getElementById('button6').style.backgroundImage = "url(Assets/hereClicked.png)";
+
+}
+
+function changeimg6up(){
+  document.getElementById('button6').style.backgroundImage = "url(Assets/hereButton.png)";
+
+}
+
+
+
+function changeimg7(){
+  document.getElementById('button7').style.backgroundImage = "url(Assets/downloadClicked.png)";
+
+}
+
+function changeimg7up(){
+  document.getElementById('button7').style.backgroundImage = "url(Assets/downLoad.png)";
+
+}
 
 
 $(window).scroll(function () {
