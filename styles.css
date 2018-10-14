@@ -502,6 +502,7 @@ body{
   position: absolute;
   left:5vw;
   top: 130px;
+  z-index: -1000;
   /* transform: rotate(15deg); */
 
 }
@@ -509,7 +510,7 @@ body{
 
 .chip14{
   position: absolute;
-  left:5vw;
+  left:2vw;
   top: 1330px;
   /* transform: rotate(15deg); */
 
@@ -759,4 +760,549 @@ svg{
   position: absolute;
   top: 5px;
   left: 1px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1370px) {
+
+
+
+.sauce{
+  position: absolute;
+  left: 2vw;
+
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1370px) {
+
+
+
+.sauce3{
+display: none;
+}
+
+
+.chip13{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+
+}
+
+.chip3{
+  position: absolute;
+  /* left: 10px; */
+  top: 160px;
+
+}
+
+
+.armLeft2{
+  width: 500px;
+}
+
+
+.chip12{
+  position: absolute;
+  top: 600px;
+}
+
+
+.chip14{
+  position: absolute;
+  top: 1400px;
+  display: none;
+}
+
+
+
+.chip21{
+  position: absolute;
+  top: 2300px;
+
+}
+
+
+.text{
+  margin-left:60px;
+}
+
+
+.text2{
+  margin-left: 570px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1110px){
+
+.text{
+  /* margin-left: 20px; */
+
+}
+
+.text2{
+  margin-left: 500px;
+}
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1030px){
+#nav{
+
+}
+
+#nav ul{
+padding-left: 10px;
+}
+
+
+.sauce2{
+  display: none;
+}
+
+
+.text{
+  margin-left: 40px;
+}
+
+
+.text p{
+
+  width: 400px;
+
+}
+
+.text2 p{
+
+  width: 400px;
+}
+
+
+.armLeft2{
+  position: absolute;
+
+  top: 1770px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 940px){
+
+
+.text2{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+
+}
+
+
+.text{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sauce4{
+  position: absolute;
+  top: 2700px;
+  display: none;
+}
+
+
+
+.armRight2{
+  width: 300px;
+}
+
+.armLeft2{
+  width: 300px;
+  position: absolute;
+  top:
+}
+
+
+
+.armLeft, .armRight{
+  width: 300px;
+
+}
+
+
+.chip22{
+  position: absolute;
+  right: 170px;
+  top: 2475px;
+  width: 70px;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 920px){
+
+
+.title{
+  width: 70%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title img{
+  width: 100%;
+
+}
+
+
+.chip7{
+  position: absolute;
+  left: 10px;
+
+}
+
+.chip6{
+  position: absolute;
+  left: 5px;
+  top: 1200px;
+}
+
+
+.chip8{
+  display: none;
+
+}
+
+
+.chip2{
+  position: absolute;
+  right: 160px;
+  width: 90px;
+  top: 685px;
+
+}
+
+
+.chip5{
+  display: none;
+
+}
+
+.chip16{
+  display: none;
+}
+
+.armLeft2{
+  position: absolute;
+  top: 1430px;
+
+}
+
+
+.chip18{
+  position: absolute;
+  top: 1500px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 900px){
+
+
+#nav {
+opacity: 0;
+}
+
+
+.text{
+  max-width: 900px;
+}
+
+
+
+.chip4{
+  position: absolute;
+  right: 0px;
+  top: 1500px;
+
+}
+
+.chip1{
+  display: none;
+}
+
+
+
+.armRight{
+  right: -50px;
+}
+
+
+.chip2{
+  position: absolute;
+  right: 110px;
+  width: 90px;
+  top: 685px;
+
+}
+
+
+.chip21{
+  left: 1px;
+}
+
+
+.chip20{
+  top: 2200px;
+}
+
+.armRight2{
+  top: 1800px;
+
+}
+
+
+.chip22{
+  top: 1945px;
+}
+
+.chip15{
+  left: 1px;
+}
+
+}
+
+
+@media only screen and (max-width: 750px){
+
+
+.armLeft2{
+  position: absolute;
+
+  top: 1300px;
+}
+
+
+.chip4{
+  position: absolute;
+  top: 1200px;
+}
+
+
+.armRight{
+  right: -70px;
+  top: 490px;
+
+}
+
+.chip2{
+  position: absolute;
+
+  right: 92px;
+  top: 545px;
+}
+
+
+
+.chip7{
+  width: 50px;
+}
+
+.armLeft{
+  top: 430px;
+
+}
+
+
+
+.title{
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title img{
+  width: 100%;
+
+}
+
+.chip15{
+  width: 50px;
+
+}
+
+.chip21{
+  top: 2500px;
+  transform: rotate(-40deg);
+}
+
+.chip3{
+  top: 1px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 645px){
+
+
+.title{
+  width: 95%;
+
+}
+
+
+.chip9{
+  position: absolute;
+
+  width: 50px;
+  left: 90vw;
+}
+
+.chip7{
+  display: none;
+}
+
+
+.chip15{
+  top: 1390px;
+}
+
+.armLeft2{
+  top: 1500px;
+}
+
+.armRight2{
+  top: 1800px;
+
+}
+
+
+.chip22{
+  top: 1945px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 580px){
+
+.armLeft2{
+  top: 1300px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 550px){
+
+.text, .text2{
+  /* background-color: green; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chip12, .chip18{
+  display: none;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+.text{
+margin-top: 100px;
+}
+
+.text p{
+  width: 90%;
+
+}
+
+.fishAndChips{
+  width: 400px;
+  position: relative;
+  top: 50px;
+}
+
+.armLeft{
+  top: 330px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 470px){
+
+.armRight{
+  top: 400px;
+
+}
+
+.chip2{
+top: 455px;
+
+
+}
+
+
+.armLeft{
+  left: -30px;
+}
+
 }
