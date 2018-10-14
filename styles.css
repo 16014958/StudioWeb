@@ -1111,6 +1111,14 @@ opacity: 0;
   left: 1px;
 }
 
+
+.sauce{
+position: absolute;
+left: -180px;
+
+}
+
+
 }
 
 
@@ -1336,5 +1344,22 @@ top: 455px;
     right: 30px;
     top: 425px;
   }
+.chip3, .chip13{
+  display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width: 375px){
+
+
+    .fishAndChips{
+      width: 350px;
+      position: relative;
+      top: 150px;
+      left: 0px;
+    }
 
 }
