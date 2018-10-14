@@ -774,18 +774,20 @@ svg{
 
 #hamburger{
   position: absolute;
-  left: 3px;
+  left: 30px;
   top: 3px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 
 #navButtons2{
   width: 100%;
-  background-color: red;
+  background-color: #F5F2EF;
   height: 500px;
   position: absolute;
-  top: -500px;
+  top: -600px;
+  y: 0;
+  box-shadow: 5px 10px 50px #888888;
 
 }
 
@@ -870,6 +872,19 @@ svg{
   height: 65px;
   background-repeat: no-repeat;
 }
+
+
+
+@media only screen and (min-width: 900px) {
+
+  #hamburger{
+  display: none;
+    background-color: red;
+  }
+
+
+}
+
 
 
 @media only screen and (max-width: 1370px) {
