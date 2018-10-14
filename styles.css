@@ -771,6 +771,10 @@ svg{
 }
 
 
+.nav2{
+  z-index: 9000;
+}
+
 
 #hamburger{
   position: absolute;
