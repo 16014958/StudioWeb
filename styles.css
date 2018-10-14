@@ -294,6 +294,14 @@ body{
   /* opacity: 0.7; */
 }
 
+
+
+
+
+
+
+
+
 .navIcon{
   position: relative;
   top: 50px;
@@ -764,7 +772,104 @@ svg{
 
 
 
+#hamburger{
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  background-color: red;
+}
 
+
+#navButtons2{
+  width: 100%;
+  background-color: red;
+  height: 500px;
+  position: absolute;
+  top: -500px;
+
+}
+
+.n{
+
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+#CrossB2{
+  background-image: url("Assets/cross.png");
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  position: relative;
+  top: 20px;
+
+}
+
+#AboutB2{
+  background-image: url("Assets/AboutButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+    height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#EventsB2{
+  background-image: url("Assets/EventInfoButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+#EmergencyB2{
+  background-image: url("Assets/EmergencyButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#ResoursesB2{
+  background-image: url("Assets/ResourcesButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#ContactB2{
+  background-image: url("Assets/ContactButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
 
 
 @media only screen and (max-width: 1370px) {
