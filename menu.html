@@ -52,17 +52,17 @@ MENU
 
   <!-- Arms -->
 
-  <img class="armRight" src="Assets/handRight.png" width="450px"  data-scroll-speed="2">
+  <img class="armRight" src="Assets/handRight4.png" width="450px"  data-scroll-speed="2">
 
   <img class="armLeft2" src="Assets/handWithExtinguisher.png" width="650px"  >
 
 
-    <img class="armRight2" src="Assets/hand3.png" width="450px"  data-scroll-speed="3">
+    <img class="armRight2" src="Assets/hand3chip.png" width="450px"  data-scroll-speed="3">
 
 
   <!-- chips -->
   <img class="chip1" src="Assets/chip1.png" width="120px" >
-  <img class="chip2" src="Assets/chips4.png" width="120px" data-scroll-speed="2">
+  <!-- <img class="chip2" src="Assets/chips4.png" width="120px" data-scroll-speed="2"> -->
   <img class="chip3" src="Assets/chips6.png" width="100px" data-scroll-speed="9">
 
 
@@ -103,10 +103,10 @@ MENU
 <img class="sauce" src="Assets/tomsauce.png" width="400px" >
 <img class="sauce2" src="Assets/tomsauce2.png" width="450px" data-scroll-speed="9">
 
-<img class="sauce3" src="Assets/tomsauce.png" width="400px" data-scroll-speed="10">
+<img class="sauce3" src="Assets/tomsauce.png" width="400px" >
 
-<img class="sauce4" src="Assets/tomsauceDip2.png" width="400px" >
-
+<!-- <img class="sauce4" src="Assets/tomsauceDip2.png" width="400px" > -->
+<!--  -->
 
 </div>
 
@@ -121,6 +121,7 @@ MENU
 
   </div>
 
+<div class="left">
 
 
 <div class="text">
@@ -201,6 +202,13 @@ MENU
 
 </div>
 
+
+</div>
+
+
+
+<div class="right">
+
 <div class="text">
 
 
@@ -222,14 +230,84 @@ MENU
 
 
 
+
+
+
+
+
+
+<div class="text">
+
+
+<h1> Pineapple </h1>
+<h1> fritter </h1>
+<p> Pieces </p>
+
+  <div class="button_group">
+  	<button id="subtractSIX"><img src="Assets/Minus.png" width="70px"></button>
+      <div id="counterSIX"></div>
+
+  	<button id="addSIX"><img src="Assets/Plus.png" width="70px"></button>
+    <button id="resetSIX">Reset</button>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="text">
+
+
+<h1> Spring roll </h1>
+<p> Pieces </p>
+
+  <div class="button_group">
+  	<button id="subtractSEVEN"><img src="Assets/Minus.png" width="70px"></button>
+      <div id="counterSEVEN"></div>
+
+  	<button id="addSEVEN"><img src="Assets/Plus.png" width="70px"></button>
+    <button id="resetSEVEN">Reset</button>
+  </div>
+
+
+</div>
+
+
+
+<div class="text">
+
+
+<h1> saucy dog </h1>
+<p> Pieces </p>
+
+  <div class="button_group">
+  	<button id="subtractEIGHT"><img src="Assets/Minus.png" width="70px"></button>
+      <div id="counterEIGHT"></div>
+
+  	<button id="addEIGHT"><img src="Assets/Plus.png" width="70px"></button>
+    <button id="resetEIGHT">Reset</button>
+  </div>
+
+
+</div>
+
+
+
+</div>
+
+
 <form action="">
+
 <p>  First name:</p><br>
-  <input id="FirstName" type="text" name="firstname" value="...">
+  <input id="FirstName" type="text" name="firstname" value="">
   <br>
   <p>Last name:</p><br>
-  <input id="LastName" type="text" name="lastname" value="...">
+  <input id="LastName" type="text" name="lastname" value="">
   <br><br>
-  <input type="submit" value="Submit">
+  <input class="SB" type="submit" value="">
+
 </form>
 
 
@@ -257,16 +335,44 @@ MENU
 
 
 
+<div class="nav2">
+  <div id="hamburger" >
+    <img class="hamburger" src="Assets/hamburger.png" width="40px" >
+  </div>
+  <div id="navButtons2">
+    <div class="n">
+      <p id="CrossB2" > </p>
+      <a href="index.html"><p id="AboutB2"  onmousedown="changeimg10()" onmouseup="imgUP10()"> </p> </a>
+      <a href="event.html"  > <p  id="EventsB2" onmousedown="changeimg11()" onmouseup="imgUP11()">     </p></a>
+      <a href="emergency.html"> <p id="EmergencyB2" onmousedown="changeimg12()" onmouseup="imgUP12()">    </p></a>
+      <a href="resources.html"><p id="ResoursesB2" onmousedown="changeimg13()" onmouseup="imgUP13()">    </p></a>
+      <a href="contact.html"><p id="ContactB2" onmousedown="changeimg14()" onmouseup="imgUP14()"> </p> </a>
 
+    </div>
+
+  </div>
+
+</div>
 
 
 
 <!-- javascript -->
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+document.getElementById('hamburger').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 600} );
+  this.style.cursor = 'default';
+});
+
+document.getElementById('CrossB2').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 0} );
+  this.style.cursor = 'default';
+});
+
 
 function changeimg(){
   document.getElementById('button1').style.backgroundImage = "url(Assets/AboutClicked.png)";
@@ -298,6 +404,35 @@ function changeimg5(){
 
 }
 
+
+
+function changeimg10(){
+  document.getElementById('AboutB2').style.backgroundImage = "url(Assets/AboutClicked.png)";
+
+}
+
+
+function changeimg11(){
+  document.getElementById('EventsB2').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+
+function changeimg12(){
+  document.getElementById('EmergencyB2').style.backgroundImage = "url(Assets/EmergencyClicked.png)";
+
+}
+
+function changeimg13(){
+  document.getElementById('ResoursesB2').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+
+function changeimg14(){
+  document.getElementById('ContactB2').style.backgroundImage = "url(Assets/ContactClicked.png)";
+
+}
 
 
 $(window).scroll(function () {
@@ -371,6 +506,10 @@ var counter2 = 0
 var counter3 = 0
 var counter4 = 0
 var counter5 = 0
+
+var counter6 = 0
+var counter7 = 0
+var counter8 = 0
 // Display total
 $("#counter").text(counter);
 
@@ -385,6 +524,12 @@ $("#counterFOUR").text(counter4);
 
 $("#counterFIVE").text(counter5);
 
+
+$("#counterSIX").text(counter5);
+
+$("#counterSEVEN").text(counter5);
+
+$("#counterEIGHT").text(counter5);
 
 
 
@@ -430,6 +575,28 @@ $("#addFIVE").click(function(){
 });
 
 
+$("#addSIX").click(function(){
+  //Add 10 to counter
+  counter6 = counter6 + 1;
+	// Display total
+	$("#counterSIX").text(counter6);
+});
+
+
+$("#addSEVEN").click(function(){
+  //Add 10 to counter
+  counter7 = counter7 + 1;
+	// Display total
+	$("#counterSEVEN").text(counter7);
+});
+
+
+$("#addEIGHT").click(function(){
+  //Add 10 to counter
+  counter8 = counter8 + 1;
+	// Display total
+	$("#counterEIGHT").text(counter8);
+});
 
 
 
@@ -444,24 +611,47 @@ $("#subtract").click(function(){
 //Subtract
 $("#subtractTwo").click(function(){
   counter2 = counter2 - 1;
-  $("#counter").text(counter2);
+  $("#counterTwo").text(counter2);
 });
 
 $("#subtractThree").click(function(){
   counter3 = counter3 - 1;
-  $("#counter").text(counter3);
+  $("#counterThree").text(counter3);
 });
 
 $("#subtractFOUR").click(function(){
   counter4 = counter4 - 1;
-  $("#counter").text(counter4);
+  $("#counterFOUR").text(counter4);
 });
 
 
 $("#subtractFIVE").click(function(){
   counter5 = counter5 - 1;
-  $("#counter").text(counter5);
+  $("#counterFIVE").text(counter5);
 });
+
+
+
+$("#subtractSIX").click(function(){
+  counter6 = counter6 - 1;
+  $("#counterSIX").text(counter6);
+});
+
+
+$("#subtractSEVEN").click(function(){
+  counter7 = counter7 - 1;
+  $("#counterSEVEN").text(counter7);
+});
+
+
+
+$("#subtractEIGHT").click(function(){
+  counter8 = counter8 - 1;
+  $("#counterEIGHT").text(counter8);
+});
+
+
+
 
 
 
@@ -492,6 +682,27 @@ $("#resetFIVE").click(function(){
   counter5 = 0;
   $("#counterFIVE").text(counter5);
 });
+
+
+$("#resetSIX").click(function(){
+  counter6 = 0;
+  $("#counterSIX").text(counter6);
+});
+
+
+$("#resetSEVEN").click(function(){
+  counter7 = 0;
+  $("#counterSEVEN").text(counter7);
+});
+
+
+$("#resetEIGHT").click(function(){
+  counter8 = 0;
+  $("#counterEIGHT").text(counter8);
+});
+
+
+
 
 
 

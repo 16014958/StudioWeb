@@ -123,7 +123,7 @@
 <!-- Tomatoe Sauce -->
 
 <img class="sauce" src="Assets/tomsauce.png" width="400px" >
- <img class="sauce2" src="Assets/tomsauce2.png" width="450px" data-scroll-speed="9">
+ <img class="sauce2" src="Assets/tomsauce2.png" width="450px" >
 
 
   <img class="sauce6" src="Assets/tomsauce2.png" width="480px" data-scroll-speed="9">
@@ -144,7 +144,7 @@
 
   <div class="BigTitle">
 
-    <h1> EMERGENCY </h1>
+    <h1> BURNT CHIPS </h1>
 
 
 
@@ -178,11 +178,11 @@ Knowing your neighbours will really help in any emergency. Get prepared and get 
 <p>1. Always be prepared for a fire. Have working smoke alarms and at least two fire extinguishers. Learn how to use them before you need to use them.
 <br><br>
 
-2. RESCUE: Make sure to alert everyone in the building. Help each other make your way to the meeting place agreed in advance. Check that everyone has made it out.   In the event of a fire, climb out the nearest window and meet at a safe meeting point. Getting to know the exits within your household is key to getting out safe. If you are in a apartment, get low, noes on the ground low.
+2. <span> RESCUE </span>: Make sure to alert everyone in the building. Help each other make your way to the meeting place agreed in advance. Check that everyone has made it out.   In the event of a fire, climb out the nearest window and meet at a safe meeting point. Getting to know the exits within your household is key to getting out safe. If you are in a apartment, get low, noes on the ground low.
 <br><br>
-3. ALARM: Notify the fire service on emergency number 111. Give the exact address. You should also teach children how to do this. Do not hang up until you are told to do so. The fire service is already on its way, while you are speaking.
+3. <span>ALARM </span>: Notify the fire service on emergency number 111. Give the exact address. You should also teach children how to do this. Do not hang up until you are told to do so. The fire service is already on its way, while you are speaking.
 <br><br>
-4. EXTINGUISH: If the fire is not too large, try to put it out. Do not expose yourself or others to significant danger. Remember that smoke is very toxic
+4. <span>EXTINGUISH </span>: If the fire is not too large, try to put it out. Do not expose yourself or others to significant danger. Remember that smoke is very toxic
 </p>
 
 
@@ -228,17 +228,44 @@ Knowing your neighbours will really help in any emergency. Get prepared and get 
 </div>
 
 
+<div class="nav2">
+  <div id="hamburger" >
+    <img class="hamburger" src="Assets/hamburger.png" width="40px" >
+  </div>
+  <div id="navButtons2">
+    <div class="n">
+      <p id="CrossB2" > </p>
+      <a href="index.html"><p id="AboutB2"  onmousedown="changeimg10()" onmouseup="imgUP10()"> </p> </a>
+      <a href="event.html"  > <p  id="EventsB2" onmousedown="changeimg11()" onmouseup="imgUP11()">     </p></a>
+      <a href="emergency.html"> <p id="EmergencyB2" onmousedown="changeimg12()" onmouseup="imgUP12()">    </p></a>
+      <a href="resources.html"><p id="ResoursesB2" onmousedown="changeimg13()" onmouseup="imgUP13()">    </p></a>
+      <a href="contact.html"><p id="ContactB2" onmousedown="changeimg14()" onmouseup="imgUP14()"> </p> </a>
 
+    </div>
+
+  </div>
+
+</div>
 
 
 
 
 <!-- javascript -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+document.getElementById('hamburger').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 600} );
+  this.style.cursor = 'default';
+});
+
+document.getElementById('CrossB2').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 0} );
+  this.style.cursor = 'default';
+});
 
 function changeimg(){
   document.getElementById('button1').style.backgroundImage = "url(Assets/AboutClicked.png)";
@@ -270,6 +297,34 @@ function changeimg5(){
 
 }
 
+
+function changeimg10(){
+  document.getElementById('AboutB2').style.backgroundImage = "url(Assets/AboutClicked.png)";
+
+}
+
+
+function changeimg11(){
+  document.getElementById('EventsB2').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+
+function changeimg12(){
+  document.getElementById('EmergencyB2').style.backgroundImage = "url(Assets/EmergencyClicked.png)";
+
+}
+
+function changeimg13(){
+  document.getElementById('ResoursesB2').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+
+function changeimg14(){
+  document.getElementById('ContactB2').style.backgroundImage = "url(Assets/ContactClicked.png)";
+
+}
 
 $(window).scroll(function () {
 

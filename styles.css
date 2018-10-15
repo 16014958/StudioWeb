@@ -375,7 +375,7 @@ body{
   position: absolute;
   left:-3px;
   top: 530px;
-  z-index: 1000;
+
 }
 
 
@@ -665,9 +665,12 @@ font-family: 'Futura';
   color: #bb3b2e;
   transform: skew( -5deg, -5deg) rotate(-5deg);
     padding-left: 5px;
+    line-height: 19px;
 }
 
-
+.text span{
+  font-weight: 900;
+}
 
 .text2{
   width: 500px;
@@ -809,8 +812,9 @@ svg{
   width: 30px;
   height: 30px;
   background-size: 100%;
-  position: relative;
-  top: 20px;
+  position: absolute;
+  left: 30px;
+  top: 3px;
 
 }
 
@@ -1318,6 +1322,19 @@ left: -180px;
 }
 
 
+@media only screen and (max-width: 730px){
+
+  .text3{
+
+    /* background-color: blue; */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+  }
+
+}
+
 
 
 
@@ -1395,6 +1412,11 @@ left: -180px;
 
 @media only screen and (max-width: 500px){
 
+
+.chip15{
+  top: 1690px;
+}
+
 .text{
 margin-top: 100px;
 }
@@ -1441,6 +1463,12 @@ top: 455px;
 
 
 @media only screen and (max-width: 400px){
+
+
+.chip20{
+  top: 2400px;
+  left: 85vw;
+}
 
 
   .fishAndChips{

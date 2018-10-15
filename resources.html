@@ -128,7 +128,7 @@
 
   <div class="BigTitle">
 
-    <h1> RESOURCES </h1>
+    <h1> STILL HUNGRY? </h1>
 
 
 
@@ -139,7 +139,9 @@
 
 <div class="text" >
 
-<h1>Get saucy with one </h1><h1>of our Tomotoe </h1><h1>sauce bottles</h1>
+<h1 class="tit2">Get saucy with  </h1><h1 class="tit2"> one of our Tomatoe </h1><h1 class="tit2">sauce bottles</h1>
+<h1 class="tit1">Get saucy with  </h1><h1 class="tit1"> one of our </h1><h1 class="tit1">Tomatoe sauce </h1><h1 class="tit1">bottles</h1>
+
 <br>
 <h1> Purchase one </h1>
 <a  > <p id="button6" onmousedown="changeimg6()" onmouseup="changeimg6up()">    </p></a>
@@ -151,8 +153,13 @@
 
 <div class="text2" >
 
-<h1>Grab one of our saucey posters </h1> <h1> to help spread the </h1> <h1>awareness in </h1> <h1>your neighbourhood. </h1>
-<a  > <p id="button7" onmousedown="changeimg7()" onmouseup="changeimg7up()">    </p></a>
+<h1 class="tit3" >Grab one of our saucy  </h1> <h1 class="tit3">posters to help spread </h1> <h1 class="tit3"> the awareness in </h1> <h1 class="tit3">your neighbourhood. </h1>
+<h1 class="tit4">Grab one of our </h1> <h1 class="tit4">saucey posters </h1>
+
+
+<!-- <h1 class="tit4"> to help spread the </h1> <h1 class="tit4">awareness  </h1> <h1 class="tit4"> in your </h1> <h1 class="tit4">neighbourhood. </h1> -->
+
+<a  href="Assets/hand3.png" download="w3logo"> <p id="button7" onmousedown="changeimg7()" onmouseup="changeimg7up()"   href="Assets/hand3.png" download="hand.png">    </p></a>
 
 
 </div>
@@ -187,6 +194,24 @@
 
 </div>
 
+<div class="nav2">
+  <div id="hamburger" >
+    <img class="hamburger" src="Assets/hamburger.png" width="40px" >
+  </div>
+  <div id="navButtons2">
+    <div class="n">
+      <p id="CrossB2" > </p>
+      <a href="index.html"><p id="AboutB2"  onmousedown="changeimg10()" onmouseup="imgUP10()"> </p> </a>
+      <a href="event.html"  > <p  id="EventsB2" onmousedown="changeimg11()" onmouseup="imgUP11()">     </p></a>
+      <a href="emergency.html"> <p id="EmergencyB2" onmousedown="changeimg12()" onmouseup="imgUP12()">    </p></a>
+      <a href="resources.html"><p id="ResoursesB2" onmousedown="changeimg13()" onmouseup="imgUP13()">    </p></a>
+      <a href="contact.html"><p id="ContactB2" onmousedown="changeimg14()" onmouseup="imgUP14()"> </p> </a>
+
+    </div>
+
+  </div>
+
+</div>
 
 
 
@@ -194,11 +219,22 @@
 
 
 <!-- javascript -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+document.getElementById('hamburger').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 600} );
+  this.style.cursor = 'default';
+});
+
+document.getElementById('CrossB2').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 0} );
+  this.style.cursor = 'default';
+});
+
 
 function changeimg(){
   document.getElementById('button1').style.backgroundImage = "url(Assets/AboutClicked.png)";
@@ -252,6 +288,38 @@ function changeimg7up(){
   document.getElementById('button7').style.backgroundImage = "url(Assets/downLoad.png)";
 
 }
+
+
+function changeimg10(){
+  document.getElementById('AboutB2').style.backgroundImage = "url(Assets/AboutClicked.png)";
+
+}
+
+
+function changeimg11(){
+  document.getElementById('EventsB2').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+
+function changeimg12(){
+  document.getElementById('EmergencyB2').style.backgroundImage = "url(Assets/EmergencyClicked.png)";
+
+}
+
+function changeimg13(){
+  document.getElementById('ResoursesB2').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+
+function changeimg14(){
+  document.getElementById('ContactB2').style.backgroundImage = "url(Assets/ContactClicked.png)";
+
+}
+
+
+
 
 
 $(window).scroll(function () {

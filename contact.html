@@ -36,7 +36,7 @@
 
 <div class="titleDiv">
   <div class="title">
-    <img src="Assets/chippingIn2.png" width="300px">
+    <img  src="Assets/chippingIn2.png" width="300px">
 
 
 
@@ -92,7 +92,7 @@
 
 <img class="chip17" src="Assets/chips5.png" width="110px" >
 
-<img class="chip18" src="Assets/chips3.png" width="110px" data-scroll-speed="9">
+<img class="chip18" src="Assets/chips7.png" width="110px" data-scroll-speed="9">
 
 
 
@@ -178,20 +178,55 @@
 
 
 
+
+
+
+
 </div>
 
 
 
+<div class="nav2">
+  <div id="hamburger" >
+    <img class="hamburger" src="Assets/hamburger.png" width="40px" >
+  </div>
+  <div id="navButtons2">
+    <div class="n">
+      <p id="CrossB2" > </p>
+      <a href="index.html"><p id="AboutB2"  onmousedown="changeimg10()" onmouseup="imgUP10()"> </p> </a>
+      <a href="event.html"  > <p  id="EventsB2" onmousedown="changeimg11()" onmouseup="imgUP11()">     </p></a>
+      <a href="emergency.html"> <p id="EmergencyB2" onmousedown="changeimg12()" onmouseup="imgUP12()">    </p></a>
+      <a href="resources.html"><p id="ResoursesB2" onmousedown="changeimg13()" onmouseup="imgUP13()">    </p></a>
+      <a href="contact.html"><p id="ContactB2" onmousedown="changeimg14()" onmouseup="imgUP14()"> </p> </a>
 
+    </div>
+
+  </div>
+
+</div>
 
 
 
 <!-- javascript -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+
+
+document.getElementById('hamburger').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 600} );
+  this.style.cursor = 'default';
+});
+
+document.getElementById('CrossB2').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 0} );
+  this.style.cursor = 'default';
+});
+
+
 
 function changeimg(){
   document.getElementById('button1').style.backgroundImage = "url(Assets/AboutClicked.png)";
@@ -223,6 +258,37 @@ function changeimg5(){
 
 }
 
+
+
+
+
+function changeimg10(){
+  document.getElementById('AboutB2').style.backgroundImage = "url(Assets/AboutClicked.png)";
+
+}
+
+
+function changeimg11(){
+  document.getElementById('EventsB2').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+
+function changeimg12(){
+  document.getElementById('EmergencyB2').style.backgroundImage = "url(Assets/EmergencyClicked.png)";
+
+}
+
+function changeimg13(){
+  document.getElementById('ResoursesB2').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+
+function changeimg14(){
+  document.getElementById('ContactB2').style.backgroundImage = "url(Assets/ContactClicked.png)";
+
+}
 
 
 $(window).scroll(function () {

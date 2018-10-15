@@ -174,6 +174,7 @@ body{
   margin-right: auto;
   height: 600px;
   z-index: -200;
+
 }
 
 
@@ -203,9 +204,9 @@ body{
   word-spacing: 7px;
   font-size: 2rem;
   margin-left: 220px;
-  margin-top: -550px;
+  margin-top: -400px;
   height: 500px;
-
+  /* transform: skew( 5deg, 2deg) rotate(-20deg); */
 }
 
 .titleImg{
@@ -244,7 +245,7 @@ body{
 .armRight{
   position: absolute;
   right: 0px;
-  top: 630px;
+  top: 530px;
 }
 
 
@@ -587,6 +588,7 @@ body{
   /* font-style: italic; */
   color: #bb3b2e;
   /* transform: rotate(-10deg); */
+  line-height: 19px;
   padding-left: 5px;
 }
 
@@ -727,5 +729,772 @@ margin-top: 50px;
   font-style: italic;
   color: #bb3b2e;
   transform: rotate(-10deg);
+
+}
+
+
+
+.nav2{
+  z-index: 9000;
+}
+
+
+#hamburger{
+  position: absolute;
+  left: 30px;
+  top: 3px;
+  /* background-color: red; */
+}
+
+
+#navButtons2{
+  width: 100%;
+  background-color: #F5F2EF;
+  height: 500px;
+  position: absolute;
+  top: -600px;
+  y: 0;
+  box-shadow: 5px 10px 50px #888888;
+
+}
+
+.n{
+
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+#CrossB2{
+  background-image: url("Assets/cross.png");
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  position: absolute;
+  left: 30px;
+  top: 3px;
+
+}
+
+#AboutB2{
+  background-image: url("Assets/AboutButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+    height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#EventsB2{
+  background-image: url("Assets/EventInfoButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+#EmergencyB2{
+  background-image: url("Assets/EmergencyButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#ResoursesB2{
+  background-image: url("Assets/ResourcesButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+#ContactB2{
+  background-image: url("Assets/ContactButton.png");
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-size:100%;
+  /* background-color: blue; */
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .chip12{
+    width: 70px;
+    left: 5px;
+
+  }
+
+
+
+.info{
+  /* background-color: blue; */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.text{
+  margin-left: 50px;
+
+}
+
+.text2{
+  margin-left: 500px;
+
+}
+
+
+.text p, .text2 p{
+  width: 400px;
+}
+
+
+.BigTitle{
+  margin-left: 110px;
+}
+
+
+.chip13{
+  top: 580px;
+}
+
+}
+
+
+@media only screen and (max-width: 1070px){
+
+
+
+.armRight2{
+  position: absolute;
+  right: -70px;
+}
+
+.waterdrops{
+  position: absolute;
+  right: 260px;
+}
+
+.waterdrop1{
+  position: absolute;
+  right: 370px;
+}
+
+.waterdrop2{
+  position: absolute;
+  right: 270px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 950px){
+
+.text2{
+  margin-left: 400px;
+
+}
+
+.alarm{
+  left: 150px;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 940px){
+
+/*
+.text2{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+
+}
+
+
+.text{
+
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+
+
+  /* .armRight2{
+    position: absolute;
+    right: -250px;
+    top: 1130px;
+
+  } */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+
+#nav{
+  opacity: 0;
+
+}
+
+
+.chip2{
+  right: 50px;
+  width: 70px;
+}
+
+.sauce6{
+  position: absolute;
+  left: -360px;
+  top: 1300px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 920px){
+
+
+/* .title{
+  width: 70%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title img{
+  width: 100%;
+
+} */
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 900px){
+
+
+#nav {
+opacity: 0;
+}
+
+
+.text{
+  max-width: 900px;
+}
+
+.chip17, .chip18{
+  width: 80px;
+}
+
+
+
+
+.sauce{
+position: absolute;
+left: -180px;
+
+
+
+
+
+
+}
+
+.fnc{
+  top: 70px;
+  left: 120px;
+
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 760px){
+
+
+.SeagulLeft1{
+  top: 1580px;
+  left: -50px;
+}
+
+
+
+.sauce2{
+  position: absolute;
+  width: 400px;
+  left: 600px;
+  transform: rotate(120deg);
+}
+
+.text2{
+  /* background-color: blue; */
+  height: 650px;
+  margin-left: 70px;
+}
+
+
+
+
+
+.armRight2{
+  position: absolute;
+  right: -4px;
+  width: 300px;
+
+}
+
+.waterdrops{
+  position: absolute;
+  right: 110px;
+  top: 1470px;
+}
+
+.waterdrop1{
+  position: absolute;
+  right: 220px;
+  top: 1440px;
+}
+
+.waterdrop2{
+  position: absolute;
+  right: 110px;
+  top: 1440px;
+}
+
+.alarm{
+  top: 2230px;
+
+}
+
+.sauce3{
+
+width: 300px;
+}
+
+.text3{
+  margin-top: -100px;
+  /* background-color: green; */
+}
+
+.text6{
+  display: none;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 730px){
+
+  .text3{
+
+    /* background-color: blue; */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .BigTitle{
+    font-family: 'BEBAS', sans-serif;
+    font-style: italic;
+    color: #bb3b2e;
+    transform: rotate(-11deg);
+    word-spacing: 7px;
+    font-size: 1.5rem;
+    margin-left: 70px;
+    /* margin-left: 60px; */
+    /* margin-top: -250px; */
+    /* height: 500px; */
+
+  }
+
+  /* .info{
+    max-width: 0%;
+  }
+ */
+
+.fnc{
+  top: 10px;
+  left: 120px;
+
+}
+
+
+.chip2{
+  right: 10px;
+  width: 70px;
+  top: 740px;
+}
+
+
+.chip9{
+  left: 90vw;
+  width: 80px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 660px){
+
+  .fnc{
+    top: -10px;
+    left: 120px;
+    width: 320px;
+  }
+
+.armRight{
+  top: 420px;
+  width: 300px;
+}
+
+
+.chip13{
+  top: 440px;
+  left: 5px;
+}
+
+
+
+
+
+.chip4{
+  width: 70px;
+  right: 60px;
+
+
+}
+
+
+.chip21{
+  left: 5px;
+  width: 70px;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+.chip2, .chip4{
+  display: none;
+}
+
+
+.chip9{
+top: 1200px;
+}
+
+
+.chip12{
+  left: -25px;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 550px){
+
+.text, .text2{
+  /* background-color: green; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.text2{
+  /* background-color: blue; */
+  height: 650px;
+  margin-top: 100px;
+  /* margin-left: 70px; */
+}
+
+
+.BigTitle{
+  font-family: 'BEBAS', sans-serif;
+  font-style: italic;
+  color: #bb3b2e;
+  transform: rotate(-11deg);
+  word-spacing: 7px;
+  font-size: 1.5rem;
+  margin-left: 65px;
+  /* margin-left: 60px; */
+  /* margin-top: -250px; */
+  /* height: 500px; */
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+  .alarm{
+    top: 2530px;
+    width: 200px;
+  }
+
+.text{
+/* margin-top: 100px; */
+}
+
+.text p, .text2 p{
+  width: 90%;
+
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 460px){
+  .fnc{
+    top: -10px;
+    left: 120px;
+    width: 320px;
+  }
+
+.armRight{
+  top: 400px;
+  width: 250px;
+}
+
+.chip12{
+  left: -30px;
+  top: 1230px;
+}
+
+}
+
+
+@media only screen and (max-width: 430px){
+
+  .SeagulLeft1{
+    top: 1630px;
+    left: -50px;
+  }
+
+
+  .titleDiv{
+
+    margin-left: -70px;
+  }
+
+  .title{
+    padding-top: 50px;
+    /* background-color: green; */
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .title img{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+
+  }
+
+
+.alarm{
+  top: 3100px;
+  left: 90px;
+}
+
+}
+
+
+@media only screen and (max-width: 400px){
+
+
+.text2{
+  margin-left: 25px;
+}
+
+
+.chip2{
+  width: 70px;
+  right: 10px;
+
+}
+
+
+.chip4{
+  width: 70px;
+  right: 1px;
+
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 375px){
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 430px){
+
+.BigTitle{
+  margin-top: -350px;
+}
+
+
+.titleDiv{
+  /* background-color: green; */
+  margin-left: -70px;
+}
+
+.title{
+  padding-top: 50px;
+  /* padding-left: 50px; */
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title img{
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 100%;
+  /* background-color: blue; */
+}
+
+
+.sauce2{
+  display: none;
+}
+
+.chip15{
+  position: absolute;
+  top: 1500px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px){
+  .info{
+    max-width: 95%;
+    /* background-color: green; */
+  }
+
+
+.fnc{
+  left: 10px;
+  top: 10px;
+
+}
 
 }

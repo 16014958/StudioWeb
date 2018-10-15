@@ -27,7 +27,7 @@
 
   <div id="nav">
     <ul>
-      <li> <a href="index.html"><p href="home.html" class="icon1" id="button1" onmousedown="changeimg()" onmouseup="imgUP()"> </p> </a></li>
+      <li> <a href="index.html"><p  class="icon1" id="button1" onmousedown="changeimg()" onmouseup="imgUP()"> </p> </a></li>
       <li><a href="event.html"  ><p id="button2" class="navIcon" onmousedown="changeimg2()">     </p></a></li>
       <li><a href="emergency.html"><p class="Icontwo" id="button3" onmousedown="changeimg3()">     </p></a></li>
       <li><a href="resources.html"><p class="Iconthree" id="button5" onmousedown="changeimg5()">     </p></a></li>
@@ -50,21 +50,21 @@
 
 <div class="titleImg" id="bulkItems">
 
-  <img src="Assets/fishnchips.png" width="450px">
+  <img class="fishAndChips" src="Assets/fishnchips.png" width="450px">
 
 
   <!-- Arms -->
-  <img class="armLeft" src="Assets/hand2left.png" width="450px" >
+  <img class="armLeft" src="Assets/hand2left.png" width="450px" data-scroll-speed="8">
   <img class="armRight" src="Assets/handRight.png" width="450px"  data-scroll-speed="2">
 
-  <img class="armLeft2" src="Assets/handWithExtinguisher.png" width="650px"  data-scroll-speed="3">
-    <img class="armRight2" src="Assets/hand3.png" width="450px"  data-scroll-speed="3">
+  <img class="armLeft2" src="Assets/handWithExtinguisher.png" width="650px"  data-scroll-speed="4">
+    <img class="armRight2" src="Assets/hand3.png" width="450px"  data-scroll-speed="6">
 
 
   <!-- chips -->
   <img class="chip1" src="Assets/chip1.png" width="120px" >
   <img class="chip2" src="Assets/chips4.png" width="120px" data-scroll-speed="2">
-  <img class="chip3" src="Assets/chips6.png" width="100px" data-scroll-speed="9">
+  <img class="chip3" src="Assets/chips6.png" width="100px">
 
 
 
@@ -80,13 +80,13 @@
 <img class="chip9" src="Assets/chips5.png" width="100px" >
 
 <img class="chip10" src="Assets/chips6.png" width="110px" data-scroll-speed="3">
-<img class="chip11" src="Assets/chips6.png" width="120px" >
+<img class="chip11" src="Assets/chips2.png" width="120px" >
 <img class="chip12" src="Assets/chips5.png" width="100px" >
 <img class="chip13" src="Assets/chips7.png" width="100px" >
 
 
 
-<img class="chip14" src="Assets/chips5.png" width="120px" data-scroll-speed="6">
+<img class="chip14" src="Assets/chips7.png" width="120px" data-scroll-speed="6">
 <img class="chip15" src="Assets/chips6.png" width="120px" >
 <img class="chip16" src="Assets/chips7.png" width="120px" >
 
@@ -96,7 +96,7 @@
 <img class="chip19" src="Assets/chips7.png" width="130px" >
 <img class="chip20" src="Assets/chips5.png" width="120px" >
 <img class="chip21" src="Assets/chips5.png" width="120px" >
-<img class="chip22" src="Assets/chips3.png" width="100px" data-scroll-speed="3">
+<img class="chip22" src="Assets/chips3.png" width="100px" data-scroll-speed="6">
 
 
 <!-- Tomatoe Sauce -->
@@ -191,6 +191,24 @@ safety and how to deal with it as a community. </p>
 
 
 
+<div class="nav2">
+  <div id="hamburger" >
+    <img class="hamburger" src="Assets/hamburger.png" width="40px" >
+  </div>
+  <div id="navButtons2">
+    <div class="n">
+      <p id="CrossB2" > </p>
+      <a href="index.html"><p id="AboutB2"  onmousedown="changeimg10()" onmouseup="imgUP10()"> </p> </a>
+      <a href="event.html"  > <p  id="EventsB2" onmousedown="changeimg11()" onmouseup="imgUP11()">     </p></a>
+      <a href="emergency.html"> <p id="EmergencyB2" onmousedown="changeimg12()" onmouseup="imgUP12()">    </p></a>
+      <a href="resources.html"><p id="ResoursesB2" onmousedown="changeimg13()" onmouseup="imgUP13()">    </p></a>
+      <a href="contact.html"><p id="ContactB2" onmousedown="changeimg14()" onmouseup="imgUP14()"> </p> </a>
+
+    </div>
+
+  </div>
+
+</div>
 
 
 
@@ -212,6 +230,16 @@ safety and how to deal with it as a community. </p>
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+document.getElementById('hamburger').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 600} );
+  this.style.cursor = 'default';
+});
+
+document.getElementById('CrossB2').addEventListener('click', function MoveNav(){
+  TweenMax.to('#navButtons2', 0.5,  {y: 0} );
+  this.style.cursor = 'default';
+});
 
 
 
@@ -252,6 +280,36 @@ function changeimg6(){
 
 function changeimg7(){
   document.getElementById('button7').style.backgroundImage = "url(Assets/moreInfoClicked.png)";
+
+}
+
+
+
+function changeimg10(){
+  document.getElementById('AboutB2').style.backgroundImage = "url(Assets/AboutClicked.png)";
+
+}
+
+
+function changeimg11(){
+  document.getElementById('EventsB2').style.backgroundImage = "url(Assets/EventInfoClicked.png)";
+
+}
+
+
+function changeimg12(){
+  document.getElementById('EmergencyB2').style.backgroundImage = "url(Assets/EmergencyClicked.png)";
+
+}
+
+function changeimg13(){
+  document.getElementById('ResoursesB2').style.backgroundImage = "url(Assets/resources.png)";
+
+}
+
+
+function changeimg14(){
+  document.getElementById('ContactB2').style.backgroundImage = "url(Assets/ContactClicked.png)";
 
 }
 
