@@ -1938,6 +1938,10 @@ top: 455px;
 @media only screen and (max-width: 375px){
 
 
+.chip21{
+  top: 2750px;
+}
+
     .fishAndChips{
       width: 350px;
       position: relative;
