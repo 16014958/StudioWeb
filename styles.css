@@ -653,17 +653,18 @@ body{
 
 .text h1{
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
+  /* background-color: green; */
 }
 
 .text p{
 font-family: 'Futura';
   /* font-style: italic; */
   color: #bb3b2e;
-  transform: skew( -5deg, -5deg) rotate(-5deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
     padding-left: 5px;
     line-height: 19px;
 }
@@ -685,9 +686,9 @@ font-family: 'Futura';
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+    transform: skew( 0deg, -10deg) rotate(0deg);
 
 }
 
@@ -696,7 +697,7 @@ font-family: 'Futura';
 /* font-style: italic; */
 color: #bb3b2e;
 /* transform: rotate(-5deg); */
-  transform: skew( -5deg, -5deg) rotate(-5deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
   padding-left: 5px;
 }
 
@@ -1247,6 +1248,222 @@ left: -180px;
 }
 
 
+
+
+
+#bulkItems{
+  /* opacity: 0; */
+}
+
+
+#paper1{
+  transform: rotate(50deg);
+  position: absolute;
+  left: -90px;
+  top: 200px;
+    z-index: 6000;
+        width: 1000px;
+}
+
+#paper2{
+  transform: rotate(160deg);
+  position: absolute;
+  right: -90px;
+  top: 200px;
+    z-index: 6000;
+    width: 1000px;
+}
+
+#paper3{
+  transform: rotate(30deg);
+  position: absolute;
+  right: 20px;
+  top: -330px;
+  z-index: 6000;
+      width: 1000px;
+}
+
+
+
+
+
+#chip1{
+  position: absolute;
+  left: 45vw;
+  top: 40vh;
+  z-index: 7000;
+  width: 250px;
+}
+
+
+
+#chip2{
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
+  z-index: 7000;
+    width: 250px;
+}
+
+
+#chip3{
+  position: absolute;
+  left: 65vw;
+  top: 80vh;
+  z-index: 7000;
+    transform: rotate(50deg);
+      width: 250px;
+}
+
+
+#chip4{
+  position: absolute;
+  left: 15vw;
+  top: 60vh;
+  z-index: 7000;
+    width: 250px;
+}
+
+#chip5{
+  position: absolute;
+  left: 35vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(50deg);
+      width: 150px;
+}
+
+
+#chip6{
+  position: absolute;
+  left: 45vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(30deg);
+      width: 250px;
+}
+
+#chip7{
+  position: absolute;
+  left: 15vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+      width: 250px;
+}
+
+#chip8{
+  position: absolute;
+  left: 45vw;
+  top: 40vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+      /* width: 550px; */
+}
+
+#chip9{
+  position: absolute;
+  left: 25vw;
+  top: 0vh;
+  z-index: 7000;
+    transform: rotate(20deg);
+      width: 150px;
+}
+
+#chip10{
+  position: absolute;
+  left: 35vw;
+  top: 10vh;
+  z-index: 7000;
+    transform: rotate(-30deg);
+      width: 150px;
+}
+
+
+
+#fish1{
+  position: absolute;
+  left: 55vw;
+  top: 40vh;
+  z-index: 7000;
+    transform: rotate(29deg);
+}
+
+
+
+#fish2{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+    transform: rotate(-10deg);
+}
+
+
+#sauce{
+  position: absolute;
+  left: 25vw;
+  top: 35vh;
+  z-index: 7000;
+  transform: rotate(40deg);
+}
+
+
+#armLeft1{
+  position: absolute;
+  left: 0px;
+  top: 280px;
+  z-index: 12000;
+  width: 450px;
+  /* transform: rotate(40deg); */
+}
+
+#armLeft2{
+  position: absolute;
+  left: -5px;
+  top: 780px;
+  z-index: 7000;
+  transform: rotate(-50deg);
+  width: 450px;
+}
+
+
+#armRight1{
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  z-index: 7000;
+  transform: rotate(-0deg);
+  width: 450px;
+}
+
+#armRight2{
+  position: absolute;
+  right: -5px;
+  top: 400px;
+  z-index: 7000;
+  width: 450px;
+  /* transform: rotate(-0deg); */
+}
+
+
+#armRight3{
+  position: absolute;
+  left: 650px;
+  top: 0px;
+  z-index: 7000;
+  transform: rotate(-60deg);
+  width: 450px;
+  display: none;
+
+}
+
+
+
+
+
+
+
 }
 
 
@@ -1411,6 +1628,220 @@ left: -180px;
 
 
 @media only screen and (max-width: 500px){
+
+
+
+
+
+  #paper1{
+    transform: rotate(50deg);
+    position: absolute;
+    left: -90px;
+    top: 200px;
+      z-index: 6000;
+          width: 600px;
+  }
+
+  #paper2{
+    transform: rotate(160deg);
+    position: absolute;
+    right: -90px;
+    top: 200px;
+      z-index: 6000;
+      width: 600px;
+  }
+
+  #paper3{
+    transform: rotate(30deg);
+    position: absolute;
+    right: 20px;
+    top: -150px;
+    z-index: 6000;
+        width: 600px;
+  }
+
+
+
+
+
+  #chip1{
+    position: absolute;
+    left: 45vw;
+    top: 40vh;
+    z-index: 7000;
+    width: 250px;
+  }
+
+
+
+  #chip2{
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+    z-index: 7000;
+      width: 250px;
+  }
+
+
+  #chip3{
+    position: absolute;
+    left: 65vw;
+    top: 80vh;
+    z-index: 7000;
+      transform: rotate(50deg);
+        width: 250px;
+  }
+
+
+  #chip4{
+    position: absolute;
+    left: 15vw;
+    top: 60vh;
+    z-index: 7000;
+      width: 250px;
+  }
+
+  #chip5{
+    position: absolute;
+    left: 35vw;
+    top: 10vh;
+    z-index: 7000;
+      transform: rotate(50deg);
+        width: 150px;
+  }
+
+
+  #chip6{
+    position: absolute;
+    left: 45vw;
+    top: 10vh;
+    z-index: 7000;
+      transform: rotate(30deg);
+        width: 150px;
+  }
+
+  #chip7{
+    position: absolute;
+    left: 15vw;
+    top: 10vh;
+    z-index: 7000;
+      transform: rotate(-30deg);
+        width:150px;
+  }
+
+  #chip8{
+    position: absolute;
+    left: 45vw;
+    top: 40vh;
+    z-index: 7000;
+      transform: rotate(-30deg);
+        /* width: 550px; */
+  }
+
+  #chip9{
+    position: absolute;
+    left: 25vw;
+    top: 0vh;
+    z-index: 7000;
+      transform: rotate(20deg);
+        width: 100px;
+  }
+
+  #chip10{
+    position: absolute;
+    left: 35vw;
+    top: 10vh;
+    z-index: 7000;
+      transform: rotate(-30deg);
+        width: 100px;
+  }
+
+
+
+  #fish1{
+    position: absolute;
+    left: -10px;
+    top: 40vh;
+    z-index: 7000;
+      transform: rotate(29deg);
+      width: 250px;
+  }
+
+
+
+  #fish2{
+    position: absolute;
+    left: 25vw;
+    top: 35vh;
+    z-index: 7000;
+      transform: rotate(-10deg);
+        width: 250px;
+  }
+
+
+  #sauce{
+    position: absolute;
+    left: 25vw;
+    top: 35vh;
+    z-index: 7000;
+    transform: rotate(40deg);
+  }
+
+
+  #armLeft1{
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    z-index: 12000;
+    width: 350px;
+    /* transform: rotate(40deg); */
+  }
+
+  #armLeft2{
+    position: absolute;
+    left: -5px;
+    top: 780px;
+    z-index: 7000;
+    transform: rotate(-50deg);
+    width: 350px;
+  }
+
+
+  #armRight1{
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    z-index: 7000;
+    transform: rotate(-0deg);
+    width: 350px;
+  }
+
+  #armRight2{
+    position: absolute;
+    right: -5px;
+    top: 400px;
+    z-index: 7000;
+    width: 350px;
+    /* transform: rotate(-0deg); */
+  }
+
+
+  #armRight3{
+    position: absolute;
+    left: 650px;
+    top: 0px;
+    z-index: 7000;
+    transform: rotate(-60deg);
+    width: 350px;
+    display: none;
+
+  }
+
+
+
+
+
+
 
 
 .chip15{

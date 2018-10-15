@@ -604,9 +604,8 @@ body{
 
 .text h1{
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
 }
 
@@ -635,9 +634,9 @@ body{
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
 
 }
 

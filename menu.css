@@ -71,8 +71,20 @@ src: url(static/MavenPro-Regular.ttf);
 
 
 
+.pine{
+  position: absolute;
+  right: 35vw;
+  top: 400px;
+}
 
 
+.HotDog{
+  position: absolute;
+  right: 35vw;
+  top: 370px;
+  transform: rotate(-10deg);
+  /* display: none; */
+}
 
 
 
@@ -276,21 +288,37 @@ body{
 
 .chip4{
   position: absolute;
-  left: 30vw;
-  top: 700px;
-  display: none;
+  right: 33vw;
+  top: 390px;
+  /* display: none; */
   /* transform: rotate(75deg); */
 
 }
 
 .chip5{
   position: absolute;
-  left: 20vw;
-  top: 840px;
-  transform: rotate(15deg);
+  right: 43vw;
+  top: 380px;
+  transform: rotate(-15deg);
 
 }
 
+.paper{
+  position: absolute;
+  right: 33vw;
+  z-index: -1000;
+  top: 390px;
+  transform: rotate(-25deg);
+
+}
+
+
+.sauce9{
+  position: absolute;
+  right: 33vw;
+  top: 410px;
+  z-index: 1000;
+}
 
 
 .chip6{
@@ -374,7 +402,7 @@ body{
 
 .chip15{
   position: absolute;
-  left:10vw;
+  left:1vw;
   top: 1430px;
   /* transform: rotate(15deg); */
 
@@ -500,9 +528,9 @@ body{
 
 .text h1{
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
   /* margin-left: 300px; */
 }
@@ -532,9 +560,9 @@ body{
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
 
 }
 
@@ -546,6 +574,7 @@ body{
   padding-left: 5px;
 }
 
+
 .map{
   position: relative;
   left: 360px;
@@ -553,10 +582,14 @@ body{
   z-index: -100;
 }
 
+
+
 .hereBTN{
   margin-left: 10px;
   margin-top: 20px;
 }
+
+
 
 .infoButton{
   position: relative;

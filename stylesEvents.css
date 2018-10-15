@@ -575,21 +575,21 @@ body{
 
 .text h1{
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+padding-left: 5px;
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
 }
 
 .text p{
-  transform: skew( -5deg, -5deg) rotate(-5deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
   padding-left: 5px;
   font-family: 'Futura';
   /* font-style: italic; */
   color: #bb3b2e;
   /* transform: rotate(-10deg); */
   line-height: 19px;
-  padding-left: 5px;
+  /* padding-left: 5px; */
 }
 
 
@@ -609,20 +609,19 @@ body{
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
   color: #bb3b2e;
-  transform: rotate(-10deg);
-
+transform: skew( 0deg, -10deg) rotate(0deg);
+padding-left: 10px;
 }
 
 .text2 p{
-  transform: skew( -5deg, -7deg) rotate(-3deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
     padding-left: 5px;
   font-family: 'Futura';
   /* font-style: italic; */
   color: #bb3b2e;
   /* transform: rotate(-10deg); */
-  padding-left: 5px;
+  /* padding-left: 5px; */
 }
 
 .map{

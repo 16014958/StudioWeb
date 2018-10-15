@@ -310,34 +310,35 @@ body{
 
 .chip2{
   position: absolute;
-  right: 234px;
-  top: 710px;
-  /* transform: rotate(40deg); */
+  right: 15vw;
+  top: 320px;
+  transform: rotate(40deg);
 
 }
 
 
-.chip3{
+.chip25{
   position: absolute;
-  right: -4px;
-  top: 100px;
-  /* transform: rotate(35deg); */
+  right: 30vw;
+  top: 395px;
+  width: 100px;
+  transform: rotate(45deg);
 
 }
 
 .chip4{
   position: absolute;
-  right: 20vw;
-  top: 650px;
+  right: 21vw;
+  top: 390px;
   /* transform: rotate(75deg); */
 
 }
 
 .chip5{
   position: absolute;
-  left: 20vw;
-  top: 840px;
-  transform: rotate(15deg);
+  right: 20vw;
+  top: 400px;
+  /* transform: rotate(15deg); */
 
 }
 
@@ -345,8 +346,8 @@ body{
 
 .chip6{
   position: absolute;
-  left: 30vw;
-  top: 810px;
+  right: 10vw;
+  top: 480px;
   transform: rotate(15deg);
 
 }
@@ -606,9 +607,9 @@ body{
 
 .text h1{
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
 }
 
@@ -616,8 +617,8 @@ body{
 font-family: 'Futura';
   /* font-style: italic; */
   color: #bb3b2e;
-  transform: skew( -5deg, -7deg) rotate(-3deg);
-    padding-left: 5px;
+  transform: skew( 0deg, -10deg) rotate(0deg);
+    padding-top: 5px;
         line-height: 19px;
 }
 
@@ -638,9 +639,9 @@ font-family: 'Futura';
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-  font-style: italic;
+
   color: #bb3b2e;
-  transform: rotate(-10deg);
+transform: skew( 0deg, -10deg) rotate(0deg);
 
 }
 
@@ -648,10 +649,10 @@ font-family: 'Futura';
 font-family: 'Futura';
   /* font-style: italic; */
   color: #bb3b2e;
-  transform: skew( -5deg, -7deg) rotate(-3deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
    padding-left: 5px;
        line-height: 19px;
-
+  padding-top: 5px;
 }
 
 .text span{
@@ -1023,6 +1024,59 @@ top: 1980px;
 
 
 
+
+
+
+.chip2{
+  position: absolute;
+  right: 30vw;
+  top: 670px;
+  transform: rotate(40deg);
+
+}
+
+
+.chip25{
+  position: absolute;
+  right: 35vw;
+  top: 650px;
+  width: 100px;
+  transform: rotate(45deg);
+
+}
+
+.chip4{
+  position: absolute;
+  right: 20vw;
+  top: 690px;
+  /* transform: rotate(75deg); */
+
+}
+
+.chip5{
+  position: absolute;
+  right: 30vw;
+  top: 700px;
+  /* transform: rotate(15deg); */
+
+}
+
+
+
+.chip6{
+  position: absolute;
+  right: 30vw;
+  top: 620px;
+  transform: rotate(15deg);
+
+}
+
+
+
+
+
+
+
 }
 
 
@@ -1094,6 +1148,12 @@ left: -180px;
 
 
 @media only screen and (max-width: 760px){
+
+
+
+
+
+
 
 
 .sauce2{
@@ -1192,9 +1252,11 @@ width: 300px;
 
 
 
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 600px){
 
-
+.armLeft2{
+  width: 320px;
+}
 
 }
 
@@ -1278,6 +1340,11 @@ margin-top: 100px;
 
 
 
+  .armLeft2{
+    left: -40px;
+
+    width: 320px;
+  }
 
   .text {
     margin-top: 190px;
