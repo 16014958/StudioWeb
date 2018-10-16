@@ -62,7 +62,11 @@ src: url(Assets/futuraMedium.ttf);
 
 
 
-
+.logos{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
 
 
 
@@ -602,7 +606,7 @@ body{
   margin-right: auto;
   margin-left:  160px;
   line-height: 15px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .text h1{
@@ -639,7 +643,7 @@ font-family: 'Futura';
 .text2 h1{
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-
+padding-left: 5px;
   color: #bb3b2e;
 transform: skew( 0deg, -10deg) rotate(0deg);
 
@@ -858,6 +862,14 @@ margin-top: 50px;
 @media only screen and (max-width: 1200px){
 
 
+.sauce3{
+  top: 2160px;
+  right: -280px;
+
+}
+
+
+
 .info{
   /* background-color: blue; */
   max-width: 90%;
@@ -948,13 +960,13 @@ margin-top: 50px;
 .text2{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 350px;
+  margin-top: 550px;
 
 }
 
 
 .text{
-
+margin-bottom: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -989,7 +1001,7 @@ margin-top: 50px;
 
 
 .alarm{
-top: 1980px;
+top: 2580px;
 }
 
 
@@ -1164,7 +1176,7 @@ left: -180px;
 }
 
 .text2{
-  /* background-color: blue; */
+  margin-top: 400px;
   height: 650px;
 }
 
@@ -1198,7 +1210,7 @@ left: -180px;
 }
 
 .alarm{
-  top: 2230px;
+  top: 2630px;
 
 }
 
@@ -1286,9 +1298,9 @@ width: 300px;
     width: 200px;
   }
 
-.text{
+/* .text{
 margin-top: 100px;
-}
+} */
 
 .text p, .text2 p{
   width: 90%;
@@ -1345,10 +1357,34 @@ margin-top: 100px;
 
     width: 320px;
   }
-
+/*
   .text {
     margin-top: 190px;
+  } */
+
+  .text2{
+    margin-top: 380px;
   }
+
+  .text{
+    margin-bottom: 700px;
+  }
+
+.alarm{
+  top: 2700px;
+}
+
+.follow{
+  margin-top: -700px;
+}
+
+.logos{
+  height: 100px;
+  position: relative;
+  top: -700px;
+}
+
+
 
 
 

@@ -6,7 +6,11 @@ src: url(Assets/BEBAS.ttf);
 
 
 
+@font-face {
+font-family: 'Futura';
+src: url(Assets/futuraMedium.ttf);
 
+}
 
 
 @-webkit-keyframes fadeIn {
@@ -552,7 +556,11 @@ body{
 
 
 
-
+.logos{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
 
 /* Sauce */
 
@@ -590,34 +598,39 @@ body{
 
 
 
+
 .text{
   width: 500px;
   height: 400px;
-  margin-top: -100px;
   /* background-color: red; */
   margin-left: auto;
   margin-right: auto;
   margin-left:  160px;
-  line-height: 15px;
-  padding-left: 20px;
+
 }
 
 .text h1{
+    line-height: 20px;
   font-family: 'BEBAS', sans-serif;
+  /* font-style: italic; */
   color: #bb3b2e;
-transform: skew( 0deg, -10deg) rotate(0deg);
+  transform: skew( 0deg, -10deg) rotate(0deg);
   word-spacing: 7px;
+  /* background-color: green; */
 }
 
 .text p{
-
-  font-style: italic;
+font-family: 'Futura';
+  /* font-style: italic; */
   color: #bb3b2e;
-  transform: rotate(-10deg);
-  padding-left: 5px;
+  transform: skew( 0deg, -10deg) rotate(0deg);
+    /* padding-left: 5px; */
+    line-height: 19px;
 }
 
-
+.text span{
+  font-weight: 900;
+}
 
 .text2{
   width: 500px;
@@ -626,27 +639,28 @@ transform: skew( 0deg, -10deg) rotate(0deg);
   margin-left: auto;
   margin-right: auto;
   margin-left:  690px;
-  margin-top: 100px;
-  line-height: 15px;
 
 }
 
 .text2 h1{
+  line-height: 20px;
   word-spacing: 7px;
   font-family: 'BEBAS', sans-serif;
-
+  /* font-style: italic; */
   color: #bb3b2e;
-transform: skew( 0deg, -10deg) rotate(0deg);
+    transform: skew( 0deg, -10deg) rotate(0deg);
 
 }
 
 .text2 p{
-
-  font-style: italic;
-  color: #bb3b2e;
-  transform: rotate(-10deg);
+font-family: 'Futura';
+/* font-style: italic; */
+color: #bb3b2e;
+/* transform: rotate(-5deg); */
+  transform: skew( 0deg, -10deg) rotate(0deg);
   padding-left: 5px;
 }
+
 
 .map{
   position: relative;
